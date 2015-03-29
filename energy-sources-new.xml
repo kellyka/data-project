@@ -1,0 +1,118 @@
+<?xml version="1.0"?>
+<yearSET>
+    
+<year name= "2001">
+    <Wind>6737</Wind>
+    <Solar>543</Solar>
+    <Geothermal>13741</Geothermal>
+    <Wood>35200</Wood>
+    <OtherBiomass>14548</OtherBiomass>
+</year>
+
+<year name= "2002">
+
+    <Wind>10354</Wind>
+    <Solar>555</Solar>
+    <Geothermal>14491</Geothermal>
+    <Wood>38665</Wood>
+    <OtherBiomass>15044</OtherBiomass>
+</year>
+
+
+<year name= "2003">
+    <Wind>11187</Wind>
+    <Solar>534</Solar>
+    <Geothermal>14424</Geothermal>
+    <Wood>37529</Wood>
+    <OtherBiomass>15812</OtherBiomass>
+</year>
+
+<year name= "2004">
+<Wind>14144</Wind>
+<Solar>575</Solar>
+<Geothermal>14811</Geothermal>
+<Wood>38117</Wood>
+<OtherBiomass>15421</OtherBiomass>
+</year>
+
+<year name= "2005">
+    <Wind>17811</Wind>
+    <Solar>550</Solar>
+    <Geothermal>14692</Geothermal>
+    <Wood>38856</Wood>
+    <OtherBiomass>15420</OtherBiomass>
+</year>
+
+<year name= "2006">
+    <Wind>26589</Wind>
+    <Solar>508</Solar>
+    <Geothermal>14568</Geothermal>
+    <Wood>38762</Wood>
+    <OtherBiomass>16099</OtherBiomass>
+</year>
+
+<year name= "2007">
+    <Wind>34450</Wind>
+    <Solar>612</Solar>
+    <Geothermal>14637</Geothermal>
+    <Wood>39014</Wood>
+    <OtherBiomass>16525</OtherBiomass>
+</year>
+
+<year name= "2008">
+    <Wind>55363</Wind>
+    <Solar>864</Solar>
+    <Geothermal>14840</Geothermal>
+    <Wood>37300</Wood>
+    <OtherBiomass>17734</OtherBiomass>
+</year>
+
+<year name= "2009">
+    <Wind>73886</Wind>
+    <Solar>891</Solar>
+    <Geothermal>15009</Geothermal>
+    <Wood>36050</Wood>
+    <OtherBiomass>18443</OtherBiomass>
+</year>
+
+<year name= "2010">
+    <Wind>94652</Wind>
+    <Solar>1212</Solar>
+    <Geothermal>15219</Geothermal>
+    <Wood>37172</Wood>
+    <OtherBiomass>18917</OtherBiomass>
+</year>
+
+<year name= "2011">
+    <Wind>120177</Wind>
+    <Solar>1818</Solar>
+    <Geothermal>15316</Geothermal>
+    <Wood>37449</Wood>
+    <OtherBiomass>19222</OtherBiomass>
+</year>
+
+<year name="2012">
+    <Wind>140822</Wind>
+    <Solar>4327</Solar>
+    <Geothermal>15562</Geothermal>
+    <Wood>37799</Wood>
+    <OtherBiomass>19823</OtherBiomass>
+</year>
+
+<year name="2013">
+    <Wind>167992</Wind>
+    <Solar>9022</Solar>
+    <Geothermal>15775</Geothermal>
+    <Wood>40922</Wood>
+    <OtherBiomass>20964</OtherBiomass>
+</year>
+
+<year name="2014">
+    <Wind>181791</Wind>
+    <Solar>18321</Solar>
+    <Geothermal>16628</Geothermal>
+    <Wood>43050</Wood>
+    <OtherBiomass>21269</OtherBiomass>
+</year>
+
+</yearSET>

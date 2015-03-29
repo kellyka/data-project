@@ -1,0 +1,90 @@
+<?xml version="1.0" encoding="utf-8"?>
+<sourcesSET>
+    <sources name = "Wind">    
+    <description>Wind</description>
+        <yearOne>6737</yearOne>
+        <yearTwo>10354</yearTwo>
+        <yearThree>11187</yearThree>
+        <yearFour>14144</yearFour>
+        <yearFive>17811</yearFive>
+        <yearSix>26589</yearSix>
+        <YearSeven>34450</YearSeven>
+        <yearEight>55363</yearEight>
+        <yearNine>73886</yearNine>
+        <YearTen>94652</YearTen>
+        <YearEleven>120177</YearEleven>
+        <YearTwelve>140822</YearTwelve>
+        <YearThirteen>167992</YearThirteen>
+        <YearFourteen>181791</YearFourteen>
+        
+        <years>6737, 10354, 11187</years>
+        
+    </sources>    
+    <sources name= "Solar">
+    <description>Solar</description>
+        <yearOne>543</yearOne>
+        <yearTwo>555</yearTwo>
+        <yearThree>534</yearThree>
+        <yearFour>575</yearFour>
+        <yearFive>550</yearFive>
+        <yearSix>508</yearSix>
+        <YearSeven>612</YearSeven>
+        <yearEight>864</yearEight>
+        <yearNine>891</yearNine>
+        <YearTen>1212</YearTen>
+        <YearEleven>1818</YearEleven>
+        <YearTwelve>4327</YearTwelve>
+        <YearThirteen>9022</YearThirteen>
+        <YearFourteen>18321</YearFourteen>
+    </sources>    
+    <sources name= "Geothermal">    <description>Geothermal</description>    
+        <yearOne>13741</yearOne>
+        <yearTwo>14491</yearTwo>
+        <yearThree>14424</yearThree>
+        <yearFour>14811</yearFour>        
+        <yearFive>14692</yearFive>        
+        <yearSix>14568</yearSix>        
+        <YearSeven>14637</YearSeven>        
+        <yearEight>14840</yearEight>        
+        <yearNine>15009</yearNine>        
+        <YearTen>15219</YearTen>        
+        <YearEleven>15316</YearEleven>        
+        <YearTwelve>15562</YearTwelve>        
+        <YearThirteen>15775</YearThirteen>        
+        <YearFourteen>16628</YearFourteen>    
+    </sources>    
+    <sources name= "Wood">    
+        <description>Wood and wood-derived fuels</description>                
+        <yearOne>35200</yearOne>        
+        <yearTwo>38665</yearTwo>        
+        <yearThree>37529</yearThree>        
+        <yearFour>38117</yearFour>        
+        <yearFive>38856</yearFive>        
+        <yearSix>38762</yearSix>        
+        <YearSeven>39014</YearSeven>        
+        <yearEight>37300</yearEight>        
+        <yearNine>36050</yearNine>        
+        <YearTen>37172</YearTen>        
+        <YearEleven>37449</YearEleven>        
+        <YearTwelve>37799</YearTwelve>        
+        <YearThirteen>40922</YearThirteen>        
+        <YearFourteen>43050</YearFourteen>    
+    </sources>    
+    <sources name= "Other biomass">    
+        <description>Other biomass</description>                
+        <yearOne>14548</yearOne>        
+        <yearTwo>15044</yearTwo>        
+        <yearThree>15812</yearThree>        
+        <yearFour>15421</yearFour>        
+        <yearFive>15420</yearFive>        
+        <yearSix>16099</yearSix>        
+        <YearSeven>16525</YearSeven>        
+        <yearEight>17734</yearEight>        
+        <yearNine>18443</yearNine>        
+        <YearTen>18917</YearTen>        
+        <YearEleven>19222</YearEleven>        
+        <YearTwelve>19823</YearTwelve>        
+        <YearThirteen>20964</YearThirteen>        
+        <YearFourteen>21269</YearFourteen>    
+    </sources>
+</sourcesSET>
