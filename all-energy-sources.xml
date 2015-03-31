@@ -1,0 +1,198 @@
+<?xml version="1.0"?>
+<yearSET>
+<year name="2001">
+    <All_fuels>3736644</All_fuels>
+    <coal>1903956</coal>
+    <petroleum_liquids>114647</petroleum_liquids>
+    <petroleum_coke>10233</petroleum_coke>
+    <natural_gas>639129</natural_gas>
+    <other_gases>9039</other_gases>
+    <nuclear>768826</nuclear>
+    <conventional_hydroelectric>216961</conventional_hydroelectric>
+    <other_renewables>70769</other_renewables>
+    <hydro-electric_pumped_storage>-8823</hydro-electric_pumped_storage>
+    <other>11906</other>
+</year>
+
+<year name="2002">
+    <All_fuels>3858452</All_fuels>
+    <coal>1933130</coal>
+    <petroleum_liquids>78701</petroleum_liquids>
+    <petroleum_coke>15867</petroleum_coke>
+    <natural_gas>691006</natural_gas>
+    <other_gases>11463</other_gases>
+    <nuclear>780064</nuclear>
+    <conventional_hydroelectric>264329</conventional_hydroelectric>
+    <other_renewables>79109</other_renewables>
+    <hydro-electric_pumped_storage>-8743</hydro-electric_pumped_storage>
+    <other>13527</other>
+</year>
+<year name="2003">
+    <All_fuels>3883185</All_fuels>
+    <coal>1973737</coal>
+    <petroleum_liquids>102734</petroleum_liquids>
+    <petroleum_coke>16672</petroleum_coke>
+    <natural_gas>649908</natural_gas>
+    <other_gases>15600</other_gases>
+    <nuclear>763733</nuclear>
+    <conventional_hydroelectric>275806</conventional_hydroelectric>
+    <other_renewables>79487</other_renewables>
+    <hydro-electric_pumped_storage>-8535</hydro-electric_pumped_storage>
+    <other>14045</other>
+</year>
+<year name="2004">
+    <All_fuels>3970555</All_fuels>
+    <coal>1978301</coal>
+    <petroleum_liquids>100391</petroleum_liquids>
+    <petroleum_coke>20754</petroleum_coke>
+    <natural_gas>710100</natural_gas>
+    <other_gases>15252</other_gases>
+    <nuclear>788528</nuclear>
+    <conventional_hydroelectric>268417</conventional_hydroelectric>
+    <other_renewables>83067</other_renewables>
+    <hydro-electric_pumped_storage>-8488</hydro-electric_pumped_storage>
+    <other>14232</other>
+</year>
+
+<year name="2005">
+    <All_fuels>4055423</All_fuels>
+    <coal>2012873</coal>
+    <petroleum_liquids>99840</petroleum_liquids>
+    <petroleum_coke>22385</petroleum_coke>
+    <natural_gas>760960</natural_gas>
+    <other_gases>13464</other_gases>
+    <nuclear>781986</nuclear>
+    <conventional_hydroelectric>270321</conventional_hydroelectric>
+    <other_renewables>87329</other_renewables>
+    <hydro-electric_pumped_storage>-6558</hydro-electric_pumped_storage>
+    <other>12821</other>
+</year>
+
+<year name="2006">
+    <All_fuels>4064702</All_fuels>
+    <coal>1990511</coal>
+    <petroleum_liquids>44460</petroleum_liquids>
+    <petroleum_coke>19706</petroleum_coke>
+    <natural_gas>816441</natural_gas>
+    <other_gases>14177</other_gases>
+    <nuclear>787219</nuclear>
+    <conventional_hydroelectric>289246</conventional_hydroelectric>
+    <other_renewables>96525</other_renewables>
+    <hydro-electric_pumped_storage>-6558</hydro-electric_pumped_storage>
+    <other>12974</other>
+</year>
+
+<year name="2007">
+    <All_fuels>4156745</All_fuels>
+    <coal>2016456</coal>
+    <petroleum_liquids>49505</petroleum_liquids>
+    <petroleum_coke>16234</petroleum_coke>
+    <natural_gas>896590</natural_gas>
+    <other_gases>13453</other_gases>
+    <nuclear>806425</nuclear>
+    <conventional_hydroelectric>247510</conventional_hydroelectric>
+    <other_renewables>105238</other_renewables>
+    <hydro-electric_pumped_storage>-6896</hydro-electric_pumped_storage>
+    <other>12231</other>
+</year>
+
+<year name="2008">
+    <All_fuels>4119388</All_fuels>
+    <coal>1985801</coal>
+    <petroleum_liquids>31917</petroleum_liquids>
+    <petroleum_coke>14325</petroleum_coke>
+    <natural_gas>882981</natural_gas>
+    <other_gases>11707</other_gases>
+    <nuclear>806208</nuclear>
+    <conventional_hydroelectric>254831</conventional_hydroelectric>
+    <other_renewables>126101</other_renewables>
+    <hydro-electric_pumped_storage>-6288</hydro-electric_pumped_storage>
+    <other>11804</other>
+</year>
+
+<year name="2009">
+
+    <All_fuels>3950331</All_fuels>
+    <coal>1755904</coal>
+    <petroleum_liquids>25972</petroleum_liquids>
+    <petroleum_coke>12964</petroleum_coke>
+    <natural_gas>920979</natural_gas>
+    <other_gases>10632</other_gases>
+    <nuclear>798855</nuclear>
+    <conventional_hydroelectric>273445</conventional_hydroelectric>
+    <other_renewables>144279</other_renewables>
+    <hydro-electric_pumped_storage>-4627</hydro-electric_pumped_storage>
+    <other>11928</other>
+</year>
+
+<year name="2010">
+    <All_fuels>4125060</All_fuels>
+    <coal>1847290</coal>
+    <petroleum_liquids>23337</petroleum_liquids>
+    <petroleum_coke>13724</petroleum_coke>
+    <natural_gas>987697</natural_gas>
+    <other_gases>11313</other_gases>
+    <nuclear>806968</nuclear>
+    <conventional_hydroelectric>260203</conventional_hydroelectric>
+    <other_renewables>167173</other_renewables>
+    <hydro-electric_pumped_storage>-5501</hydro-electric_pumped_storage>
+    <other>12855</other>
+</year>
+
+<year name="2011">
+    <All_fuels>4100141</All_fuels>
+    <coal>1733430</coal>
+    <petroleum_liquids>16086</petroleum_liquids>
+    <petroleum_coke>14096</petroleum_coke>
+    <natural_gas>1013689</natural_gas>
+    <other_gases>11566</other_gases>
+    <nuclear>790204</nuclear>
+    <conventional_hydroelectric>319355</conventional_hydroelectric>
+    <other_renewables>193981</other_renewables>
+    <hydro-electric_pumped_storage>-6421</hydro-electric_pumped_storage>
+    <other>14154</other>
+</year>
+
+<year name="2012">
+    <All_fuels>4047765</All_fuels>
+    <coal>1514043</coal>
+    <petroleum_liquids>13403</petroleum_liquids>
+    <petroleum_coke>9787</petroleum_coke>
+    <natural_gas>1225894</natural_gas>
+    <other_gases>11898</other_gases>
+    <nuclear>769331</nuclear>
+    <conventional_hydroelectric>276240</conventional_hydroelectric>
+    <other_renewables>218333</other_renewables>
+    <hydro-electric_pumped_storage>-4950</hydro-electric_pumped_storage>
+    <other>13787</other>
+</year>
+
+<year name="2013">
+    <All_fuels>4071027</All_fuels>
+    <coal>1584194</coal>
+    <petroleum_liquids>13645</petroleum_liquids>
+    <petroleum_coke>13425</petroleum_coke>
+    <natural_gas>1125691</natural_gas>
+    <other_gases>12876</other_gases>
+    <nuclear>789016</nuclear>
+    <conventional_hydroelectric>268548</conventional_hydroelectric>
+    <other_renewables>254673</other_renewables>
+    <hydro-electric_pumped_storage>-4681</hydro-electric_pumped_storage>
+    <other>13639</other>
+</year>
+
+<year name="2014">
+    <All_fuels>4092935</All_fuels>
+    <coal>1585697</coal>
+    <petroleum_liquids>18708</petroleum_liquids>
+    <petroleum_coke>11781</petroleum_coke>
+    <natural_gas>1121928</natural_gas>
+    <other_gases>11578</other_gases>
+    <nuclear>797067</nuclear>
+    <conventional_hydroelectric>258749</conventional_hydroelectric>
+    <other_renewables>281060</other_renewables>
+    <hydro-electric_pumped_storage>-6209</hydro-electric_pumped_storage>
+    <other>12576</other>
+</year>
+
+</yearSET>

@@ -45,7 +45,8 @@ var OtherBiomass = [];
                     
                 });
 	
-                console.log(Solar);
+                console.log(Wind);
+		console.log(Solar);
 		
                 buildChart(); //finally builds chart -- needs to be inside function but outside loop so it won't try to write the chart 100 times, etc.
         }
@@ -59,7 +60,7 @@ var OtherBiomass = [];
             type: 'line'
         },
         title: {
-            text: 'Sources of Energy'
+            text: 'Renewable sources of Energy'
         },
         xAxis: {
             categories: ['2001', '2002', '2003', '2004', '2005', '2006', '2007', '2008', '2009', '2010', '2011', '2012', '2013', '2014'],
@@ -67,17 +68,18 @@ var OtherBiomass = [];
         },
         yAxis: {
             title: {
-                text: 'Energy in thousand megawatt hours'
+                text: 'Energy in thousand megawatt hours',
+		 
             }
         },
         series: [{
             
-	  name: 'Solar',
-	  data: Solar
-	    
-	},{
 	  name: 'Wind',
 	  data: Wind
+	    
+	},{
+	  name: 'Solar',
+	  data: Solar
 	
 	},{
 	  name: 'Geothermal',
@@ -91,12 +93,14 @@ var OtherBiomass = [];
 	  name: 'OtherBiomass',
 	  data: OtherBiomass
 
-      	
-        }]
+	          }]
+                });
 	
-    });
 	
-    }
-    
 
-  });
+                }	
+        });
+      	
+
+    
+    
