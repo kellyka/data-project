@@ -2,6 +2,35 @@ h1,h2,h3,h4,h5,h6{
     font-family: "Oswald", sans-serif
 }
 
+.top-bar{    
+    border: 1px;
+}
+
+p{
+    font-family: "Helvetica Neue", sans-serif
+}
+
+a{
+    color: #8E9B80;
+}
+
+a:hover{
+    color: black;
+    text-decoration: none
+}
+
+.link{
+    color: black;
+    font-family: "Helvetica Neue"
+}
+
+.link:hover{
+    color: #F06747;
+    text-decoration: none;
+    font-family: "Helvetica Neue"
+}
+    
+
 .headline{
     color: #444545;
     font-size: 36pt;
@@ -17,8 +46,15 @@ h1,h2,h3,h4,h5,h6{
     font-weight: bold;
 }
 
-.line{
+.line-separator{
+    height:1px;
+    background:#717171;
+    border-bottom:1px solid #A1A1A1;
     
+}
+
+.padding-top{
+    padding-top: 6px;
 }
 
 .credit{
@@ -36,21 +72,11 @@ h1,h2,h3,h4,h5,h6{
 }
 
 
-p{
-    font-family: "Helvetica Neue", sans-serif
-}
 
-a{
-    color: #8E9B80;
-}
-
-a:hover{
-    color: black;
-    text-decoration: none
-}
 
 .sources-column{
-    background: #DFE8CF
+    background: #DFE8CF;
+    padding: 2px;
 
 }
 
@@ -63,7 +89,7 @@ a:hover{
     padding-bottom: 2vw;
     padding-top: 1vw;
     background: #DFE8CF;
-    font-size: 14pt;
+    font-size: 13pt;
     
 }
 
