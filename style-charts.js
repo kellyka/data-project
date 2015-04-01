@@ -13,7 +13,7 @@ Highcharts.theme = {
     title: {
         style: {
             color: '#000',
-            font: 'bold 20px "Myriad Pro Condensed", sans-serif',
+            font: 'bold 20px "Oswald", sans-serif',
         }
     },
     subtitle: {

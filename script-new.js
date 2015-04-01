@@ -1,3 +1,84 @@
+$(document).ready(function(){
+
+    $('#pie-chart-sources').highcharts({
+        chart: {
+            plotBackgroundColor: null,
+            plotBorderWidth: null,
+            plotShadow: false
+        },
+        title: {
+            text: 'Sources of energy in 2013'
+        },
+        tooltip: {
+            pointFormat: '{series.name}: <b>{point.percentage:.1f}%</b>'
+        },
+        plotOptions: {
+            pie: {
+                allowPointSelect: true,
+                cursor: 'pointer',
+                dataLabels: {
+                    enabled: true,
+                    format: '<b>{point.name}</b>: {point.percentage:.1f} %',
+                    style: {
+                        color: (Highcharts.theme && Highcharts.theme.contrastTextColor) || 'black'
+                    }
+                }
+            }
+        },
+        series: [{
+            type: 'pie',
+            name: 'Sources of energy',
+            data: [
+                ['Petroleum (oil)',   36],
+                ['Natural gas', 27],
+		['Coal', 19],
+                ['Nuclear',    8],
+                ['Renewable energy',     10],
+                
+            ]
+        }]
+    });
+    
+     $('#pie-chart-uses').highcharts({
+        chart: {
+            plotBackgroundColor: null,
+            plotBorderWidth: null,
+            plotShadow: false
+        },
+        title: {
+            text: 'Uses of energy in 2013'
+        },
+        tooltip: {
+            pointFormat: '{series.name}: <b>{point.percentage:.1f}%</b>'
+        },
+        plotOptions: {
+            pie: {
+                allowPointSelect: true,
+                cursor: 'pointer',
+                dataLabels: {
+                    enabled: false,
+                    format: '<b>{point.name}</b>: {point.percentage:.1f} %',
+                    style: {
+                        color: (Highcharts.theme && Highcharts.theme.contrastTextColor) || 'black'
+                    }
+                }
+            }
+        },
+        series: [{
+            type: 'pie',
+            name: 'Uses of energy',
+            data: [
+                ['Transportation',   28],
+                ['Industrial', 22],
+		['Residential and commercial', 11],
+                ['Electric power',    39],
+                
+                
+            ]
+        }]
+    });
+});
+
 var Solar = [];
 var Wind = [];
 var Geothermal =[];
@@ -281,3 +362,11 @@ var natural_gas = [];
         }]
     });
 });
+ 
+ 
+$(document).ready(function() {
+    $('#example').dataTable( {
+        "ajax": 'arrays-test.txt'
+	
+    } );
+} );

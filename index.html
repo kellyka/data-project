@@ -10,15 +10,22 @@
 
 <head>
     <title>Energy sources interactive</title>
+    <link href='http://fonts.googleapis.com/css?family=Oswald:400,300,700' rel='stylesheet' type='text/css'>
+    <link href="css/style.css" rel="stylesheet">
+    
+    <!-- Bootstrap -->
+    <link href="css/bootstrap.min.css" rel="stylesheet">
+        
     <script src="http://ajax.googleapis.com/ajax/libs/jquery/1.9.1/jquery.min.js" type="text/javascript"></script>
     <script src="http://code.highcharts.com/highcharts.js"></script>
     <script language="javascript" type="text/javascript" src="script-new.js"></script>
     <script src="style-charts.js"></script>
+
+    
     
 
 
-    <!-- Bootstrap -->
-    <link href="css/bootstrap.min.css" rel="stylesheet">
+    
 
     
     
@@ -26,17 +33,107 @@
 
 <body>
     
-    <div class="container">
+<div class="container">
     <div class="row">
         <div class="col-md-12">
-            <h1>Energy sources changes</h1>
+            <h1 class="headline">Energy basics</h1>
+            <h3 class="subhead">A brief overview of sources & uses</h3>
+        </div>
+    </div>
+    <div class="row">
+        <div class="col-md-12 line">
+            <p class="credit">By <span class="byline">Kaitlyn Kelly</span> 11:59 P.M. APRIL 6, 2015</p>
         </div>
     </div>
     
     <div class="row">
         <div class="col-md-12">
-            <p>Examining the major sources of energy in the United States from 2001 to 2014 helps to provide informaiton about sustainability and energy sources that will dominant in the future.  </p>
+            <p>This interactive graphic examines the major sources and uses of energy in the United States from 2001 to 2014. Looking at this research helps to provide information about sustainability and energy sources that will become dominant in the future.  </p>
         </div>
+    </div>
+    
+    <!--ENERGY SOURCES INFO COLUMN-->
+    <div class="row">
+        <div class="col-md-4 sources-column">
+            <h4 style=font-family:"Oswald">ENERGY SOURCES</h4>
+            <p>The major energy sources consumed in the United States are petroleum (oil), natural gas, coal, nuclear and renewable energy. </p>
+            <br>
+            <p><strong>Petroleum (oil)</strong>
+            <br>
+            Oil provides 92% of the total amount of energy used for transportation, but only about 1% to generate electric power.</p>
+            
+            <p><strong>Natural gas</strong>
+            <br>
+            Natural gas is a relatively clean burning fossil fuel but it is made up mostly of methane which is a strong greenhouse gas.
+            <a href="http://www.eia.gov/energyexplained/index.cfm?page=natural_gas_environment">Read more</a></p>
+            <p><strong>Coal</strong>
+            <br>
+            Coal used to be used greatly as a fuel to heat homes and commercial buidlings. Over the past 50 years, use of coal for this purpose has decreased to almost nothing in the United States.</p>
+            
+            <p><strong>Nuclear</strong>
+            <br>
+            Nuclear and coal are mainly used in one sector, electric power. </p>
+            
+            <p><strong>Renewable energy</strong>
+            <br>
+            There are many renewable sources of energy including hydroelectric, wind, biomass wood, biomass waste, geothermal, and solar</p>
+            
+        </div>
+    
+    <!--ENERGY SOURCES PIE CHART-->
+        <div class="col-md-8">
+            <div id="pie-chart-sources" style="width:100%; height:600px"></div>
+        </div>
+    </div>
+    <br>
+        
+    
+    <!--here is the basic energy LINE GRAPH-->
+    <div class="row">   
+        <div class="col-md-12" style='padding-bottom: 3vw'>
+            <div id="chart-2" style="width:100%; height:600px;"></div>
+        
+    
+    <div class="row line-graph-explainer">
+        <div class="col-md-12">
+            As shown in the graph above, the usage of coal has decreased, and the usage of natural gas and renweables (while still generating significantly less energy) has increased.
+        </div>
+    </div>
+    
+    <br>
+        
+    
+    <!--here is the energy USES PIE CHART-->
+    <div class="row">
+        <div class="col-md-8">
+            <div id="pie-chart-uses" style="width:100%; height:600px"></div>
+        </div>
+       
+       <!--ENERGY SOURCES INFO COLUMN-->
+    <div class="row">
+        <div class="col-md-4 sources-column">
+            <h4 style=font-family:"Oswald">ENERGY USES</h4>
+            <p>The major energy sectors are transportation, industrial, residential and commercial and electric power. </p>
+            <br>
+            <p><strong>Transportation</strong>
+            <br>
+            Oil provides 92% of the total amount of energy used for transportation, but only about 1% to generate electric power.</p>
+            
+            <p><strong>Industrial</strong>
+            <br>
+            Natural gas is a relatively clean burning fossil fuel but it is made up mostly of methane which is a strong greenhouse gas.
+            <a href="http://www.eia.gov/energyexplained/index.cfm?page=natural_gas_environment">Read more</a></p>
+            <p><strong>Residential and commercial</strong>
+            <br>
+            Coal used to be used greatly as a fuel to heat homes and commercial buidlings. Over the past 50 years, use of coal for this purpose has decreased to almost nothing in the United States.</p>
+            
+            <p><strong>Electric power</strong>
+            <br>
+            Nuclear and coal are mainly used in one sector, electric power. </p>
+            
+            
+        </div>
+       
     </div>
     
     <div class="row">
@@ -57,11 +154,7 @@
         <br>
         <br>
             
-    <div class="row">   
-        <div class="col-md-12" style='padding-bottom: 3vw'>
-            <div id="chart-2" style="width:100%; height:600px;"></div>
-        </div>
-    </div>
+    
     
     <div class="row">
         <div class="col-xs-12 col-sm-12 col-md-6">
@@ -103,6 +196,31 @@
          <div id="chart" style="width:100%; height:600px;"></div>
     
     </div>
+<div class="container">
+<table id="example" class="display" cellspacing="0" width="100%">
+        <thead>
+            <tr>
+                <th>Name</th>
+                <th>Position</th>
+                <th>Office</th>
+                <th>Extn.</th>
+                <th>Start date</th>
+                <th>Salary</th>
+            </tr>
+        </thead>
+ 
+        <tfoot>
+            <tr>
+                <th>Name</th>
+                <th>Position</th>
+                <th>Office</th>
+                <th>Extn.</th>
+                <th>Start date</th>
+                <th>Salary</th>
+            </tr>
+        </tfoot>
+    </table>
+</div>  
    
 </body>
 </html>
