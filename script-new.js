@@ -366,7 +366,7 @@ var natural_gas = [];
  
 $(document).ready(function() {
     $('#example').dataTable( {
-        "ajax": 'data.json'
+        "ajax": 'chart.json'
 	
     } );
 } );

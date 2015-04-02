@@ -93,3 +93,13 @@ a:hover{
     
 }
 
+.percent{
+    font-family: "Helvetica Neue", sans-serif;
+    font-size: 32pt;
+    font-weight: 600;
+    text-align: center;
+}
+
+.center{
+    text-align: center
+}
