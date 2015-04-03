@@ -2,6 +2,10 @@ h1,h2,h3,h4,h5,h6{
     font-family: "Oswald", sans-serif
 }
 
+.oswald-font{
+    font-family: "Oswald", sans-serif
+}
+
 .top-bar{    
     border: 1px;
 }
@@ -29,7 +33,90 @@ a:hover{
     text-decoration: none;
     font-family: "Helvetica Neue"
 }
+
+.UT-logo{
+    width: 110%;
+    padding-top: 8px
+}
     
+.box{
+    
+}
+
+.nav-box{
+    background-color: #EAE8E5;
+    border: 1px solid white;
+    height: 40px;
+    font-family: "Oswald", sans-serif;
+    font-weight: 700;
+    text-align: center;
+    font-size: 10pt;
+    padding-top: 10px
+}
+
+.black-text{
+    color:black
+}
+
+.nav-box:hover{
+    background-color: #027DAF;
+    border: 1px solid white;
+    height: 40px;
+    font-family: "Oswald", sans-serif;
+    font-weight: 700;
+    text-align: center;
+    font-size: 10pt;
+    padding-top: 10px;
+    color:white
+}
+
+.entire-padding{
+    padding-left: 20px;
+    padding-right: 20px;
+}
+
+.orange{
+    color: #F06747
+}
+
+.orange-border{
+    border: 1vw solid #F06747
+}
+
+.plug{
+    width: 8%;
+    
+}
+
+@media (max-width: 768px) {
+    .plug{
+        width: 10%
+    }
+}
+
+.orange-box{
+    font-family: "Oswald", sans-serif;
+    background-color: #F06747;
+    height: 80px;
+    text-align: center;
+    color:white;
+}
+
+
+.big-number{
+    font-family: "Oswald", sans-serif;
+    font-size: 32pt;
+    font-weight: 300;
+    color:white;
+    
+}
+
+.white-text{
+    color:white;
+    font-family: "Oswald", sans-serif;
+    font-size: 8pt;
+    line-height: 1pt;
+}
 
 .headline{
     color: #444545;
@@ -103,3 +190,12 @@ a:hover{
 .center{
     text-align: center
 }
+
+.icons{
+    width: 80%
+}
+
+/*@media (max-width: 768px) {
+    
+}
+*/

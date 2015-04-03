@@ -1,5 +1,10 @@
 $(document).ready(function(){
+	$('#menu').slicknav();
+});
 
+$(document).ready(function(){
+  
+  
     $('#pie-chart-sources').highcharts({
         chart: {
             plotBackgroundColor: null,
@@ -7,7 +12,10 @@ $(document).ready(function(){
             plotShadow: false
         },
         title: {
-            text: 'Sources of energy in 2013'
+            text: 'Sources of energy'
+        },
+	subtitle: {
+            text: 'in 2013'
         },
         tooltip: {
             pointFormat: '{series.name}: <b>{point.percentage:.1f}%</b>'
@@ -15,14 +23,11 @@ $(document).ready(function(){
         plotOptions: {
             pie: {
                 allowPointSelect: true,
-                cursor: 'pointer',
-                dataLabels: {
-                    enabled: true,
-                    format: '<b>{point.name}</b>: {point.percentage:.1f} %',
-                    style: {
-                        color: (Highcharts.theme && Highcharts.theme.contrastTextColor) || 'black'
-                    }
-                }
+                    cursor: 'pointer',
+                    dataLabels: {
+                        enabled: false
+                    },
+                    showInLegend: true
             }
         },
         series: [{
@@ -46,7 +51,10 @@ $(document).ready(function(){
             plotShadow: false
         },
         title: {
-            text: 'Uses of energy in 2013'
+            text: 'Uses of energy'
+        },
+	subtitle: {
+            text: 'in 2013'
         },
         tooltip: {
             pointFormat: '{series.name}: <b>{point.percentage:.1f}%</b>'
@@ -54,14 +62,11 @@ $(document).ready(function(){
         plotOptions: {
             pie: {
                 allowPointSelect: true,
-                cursor: 'pointer',
-                dataLabels: {
-                    enabled: false,
-                    format: '<b>{point.name}</b>: {point.percentage:.1f} %',
-                    style: {
-                        color: (Highcharts.theme && Highcharts.theme.contrastTextColor) || 'black'
-                    }
-                }
+                    cursor: 'pointer',
+                    dataLabels: {
+                        enabled: false
+                    },
+                    showInLegend: true
             }
         },
         series: [{
@@ -264,7 +269,7 @@ var natural_gas = [];
       	
 
 
- $(function () {
+ /*$(function () {
     $('#pie-chart').highcharts({
         chart: {
             plotBackgroundColor: null,
@@ -312,7 +317,7 @@ var natural_gas = [];
         }]
     });
 });
- 
+
  
  $(function () {
     $('#pie-chart-2014').highcharts({
@@ -362,11 +367,61 @@ var natural_gas = [];
         }]
     });
 });
+  */
  
+$(function () {
+    $('#electricity').highcharts({
+        chart: {
+            type: 'column'
+        },
+        title: {
+            text: 'Sources of U.S. electricity generation'
+        },
+        subtitle: {
+            text: 'in 2013'
+        },
+        xAxis: {
+            categories: [
+                'Coal',
+                'Natural gas',
+                'Nuclear',
+		'Petroleum',
+                'Renewable'
+            ],
+            crosshair: true
+        },
+        yAxis: {
+            min: 0,
+            title: {
+                text: 'Percent'
+            }
+        },
+        tooltip: {
+            headerFormat: '<span style="font-size:10px">{point.key}</span><table>',
+            pointFormat: '<tr><td style="color:{series.color};padding:0">{series.name}: </td>' +
+                '<td style="padding:0"><b>{point.y:.1f}%</b></td></tr>',
+            footerFormat: '</table>',
+            shared: true,
+            useHTML: true
+        },
+        plotOptions: {
+            column: {
+                pointPadding: 0.2,
+                borderWidth: 0
+            }
+        },
+        series: [{
+            name: 'Energy source',
+            data: [39, 27, 19, 1, 13]
+
+        }]
+    });
+});
  
 $(document).ready(function() {
     $('#example').dataTable( {
-        "ajax": 'chart.json'
+	"ajax": 'chart.json',
+	responsive: true,
 	
     } );
 } );

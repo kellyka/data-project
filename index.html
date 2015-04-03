@@ -12,14 +12,34 @@
     <title>Energy sources interactive</title>
     <link href='http://fonts.googleapis.com/css?family=Oswald:400,300,700' rel='stylesheet' type='text/css'>
     <link href="css/style.css" rel="stylesheet">
+    
+    <!-- mobilenav -->
+    <link href="SlickNav/style.css" rel="stylesheet">
+    <link href="SlickNav/slicknav.css" rel="stylesheet">
+    
     <link href="http://cdn.datatables.net/1.10.5/css/jquery.dataTables.css" rel="stylesheet">
+    <link href="http://cdn.datatables.net/responsive/1.0.5/css/dataTables.responsive.css" rel="stylesheet">
+    
+
     <!-- Bootstrap -->
     <link href="css/bootstrap.min.css" rel="stylesheet">
         
+
     <script src="http://ajax.googleapis.com/ajax/libs/jquery/1.9.1/jquery.min.js" type="text/javascript"></script>
+        
+        
+    <!-- mobilenav -->
+    <script src="SlickNav/jquery.slicknav.min.js"></script>
+    <script src="SlickNav/jquery.slicknav.js"></script>
+    <script src="http://cdnjs.cloudflare.com/ajax/libs/modernizr/2.6.2/modernizr.min.js"></script>
+    
+    
+    <!-- highcharts -->
     <script src="http://code.highcharts.com/highcharts.js"></script>
     
+    <!-- datatables -->
     <script src="http://cdn.datatables.net/1.10.5/js/jquery.dataTables.min.js"></script>
+    <script src="http://cdn.datatables.net/responsive/1.0.5/js/dataTables.responsive.js"></script>
     <script language="javascript" type="text/javascript" src="script-new.js"></script>
     <script src="style-charts.js"></script>
 
@@ -30,24 +50,128 @@
 
 <body>
     
+    
+<ul id="menu" class="slicknav_menu">
+    <li><a href="#">NEWS</a></li>
+    <li><a href="#">SPORTS</a></li>
+    <li><a href="#">U-T TV</a></li>
+    <li><a href="#">BUSINESS</a></li>
+    <li><a href="#">ENTERTAINMENT</a></li>
+    <li><a href="#">OPINION</a></li>
+    <li><a href="#">MILITARY</a></li>
+    <li><a href="#">MARKETCONNECT</a></li>
+    <li><a href="#">U-T OFFERS</a></li>
+    <li><a href="#">CLASSIFIEDS</a></li>
+    <li><a href="#">REAL ESTATE</a></li>
+    <li><a href="#">CARS</a></li>
+</ul>
+    
 <div class="container">
+    
+    <!--this is the very top -->
     <div class="container">
     <div class="row top-bar">
-        <div class="col-md-9">
-            <p>APRIL 1, 2015 <a href="#" class="link">Today's Paper</a>  <a href="#" class="link">Weather 63</a> <a href="#" class="link">Traffic Surf Webcams</a></p>
+        <div class="hidden-xs col-md-8">
+            <div class="row">
+                <div class="col-md-2">
+                    <p class="oswald-font"><strong>APRIL 5, 2015</strong></p>
+                </div>
+            
+                <div class="col-md-2">
+                    <a href="#" class="link">Today's Paper</a>
+                </div>
+            
+                <div class="col-md-2">
+                    <a href="#" class="link">Weather 75</a>
+                </div>
+            
+            
+                <div class="col-md-2">
+                    <a href="#" class="link">Traffic</a>
+                </div>
+            
+            
+                <div class="col-md-2">
+                    <a href="#" class="link">Surf</a>
+                </div>
+            
+        
+                <div class="col-md-2">
+                    <a href="#" class="link">Webcams</a>
+                </div>
+            
+            </div>
+            
+          
             
         </div>
-        <div class="col-md-3">
-            search bar
+        <div class="hidden-xs col-md-4">
+            SEARCH BAR
         </div>
     </div>
     </div>
     
-    <div class="container">
+    <!--this is the nav -->
+    
+    
+    <div class="container nav-bar">
         <div class="row">
-            <a href="#"><img src="images/ut-logo.png" alt="UT" style=width:8%></a>
+            <div class="col-xs-2 col-md-1">
+                <a href="#"><img src="images/ut-logo.png" alt="UT" class="UT-logo"></a>
+            </div>
+            <div class="hidden-xs col-md-10 box">
+                
+                    <div class="row">
+                        <a href="#" class="black-text"><div class="col-xs-2 col-md-2 nav-box">
+                            NEWS
+                        </div></a>
+                        <a href="#" class="black-text"><div class="col-xs-2 col-md-2 nav-box">
+                            BUSINESS
+                        </div></a>
+                        <a href="#" class="black-text"><div class="col-xs-2 col-md-2 nav-box">
+                            U-T TV
+                        </div></a>
+                        <a href="#" class="black-text"><div class="col-md-2 nav-box">
+                            MILITARY
+                        </div></a>
+                        <a href="#" class="black-text"><div class="col-md-2 nav-box">
+                            U-T OFFERS
+                        </div></a>
+                        <a href="#" class="black-text"><div class="col-md-2 nav-box">
+                            REAL ESTATE
+                        </div></a>
+                    </div>
+                    <div class="row">
+                        <a href="#" class="black-text"><div class="col-md-2 nav-box">
+                            SPORTS
+                        </div></a>
+                        <a href="#" class="black-text"><div class="col-md-2 nav-box">
+                            ENTERTAINMENT
+                        </div></a>
+                        <a href="#" class="black-text"><div class="col-md-2 nav-box">
+                            MARKETCONNECT
+                        </div></a>
+                        <a href="#" class="black-text"><div class="col-md-2 nav-box">
+                            OPINION
+                        </div></a>
+                        <a href="#" class="black-text"><div class="col-md-2 nav-box">
+                            CLASSIFIEDS
+                        </div></a>
+                        <a href="#" class="black-text"><div class="col-md-2 nav-box">
+                            CARS
+                        </div></a>
+                    </div>
+                
+            </div>
+            <div class="hidden-xs col-md-1 orange-box">
+                <p class="big-number">74</p>
+                <p class="white-text">NEW ARTICLES</p>
+            </div>
+                
         </div>
     </div>
+    
+    <!--CONTENT STARTS HERE -->
     
     <div class="row line">
         <div class="col-md-12">
@@ -157,45 +281,78 @@
     
         <br>
         <br>
+        <br>
             
     
     
-    <div class="row">
+    <!--<div class="row">
         <div class="col-xs-12 col-sm-12 col-md-6">
             <div id="pie-chart" style="width:105%; height:500px;"></div>
         </div>
         <div class="col-xs-12 col-sm-12 col-md-6">
             <div id="pie-chart-2014" style="width:109%; height:500px;"></div>
         </div>
+    </div>-->
+    <div class="container">
+        <h2 class="oswald-font"><strong class="orange">Electricity</strong> in the U.S.</h2>
+    <div class="row">
+        <div class="col-md-8">
+            <div id="electricity" style="width:100%; max-height:600px"></div>
+                
+            </p>
+        </div>
+        
+        <div class="col-md-4 orange-border">
+            <h4 class="oswald-font">4 trillion kilowatthours of electricity</h4>
+            <p> were generated in the United States in 2013. Fossil fuels generate most of U.S. electricity, with coal being used for about 39% of the total electricity. Steam turbines produce the majority of electricity in the U.S. When steam turbines are powered by fossil fuels such as coal, petroleum (oil), and natural gas, the fuel is burned in a furnace that heats water in a boiler which then produces steam. 
+            </p>
+            <h4 class="oswald-font">Renewable energy sources provide 13% of U.S. electricity</h4>
+        </div>
+        <img src="images/plug-01.png" alt="plug" class="plug">
     </div>
-    
+    </div>
+        
     <div class="container">
     <div class="row">    
         <div class="col-md-12">
-            <h3>Renewables</h3>
+            <h3 class="oswald-font center">Electricity generated by <strong class="orange">renewable energy</strong> sources</h3>
+            <br>
             <div class="row">
-                <div class="col-md-2 center">
-                    <img src="images/wind-icon-01.png" alt="wind">
+                
+                <div class="col-xs-4 col-md-2 center">
+                    <img src="images/hydro-icon-01.png" alt="wind" class="icons">
+                    <p class="percent">52%</p>
+                    <p>hydro</p>
+                </div>
+                
+                <div class="col-xs-4 col-md-2 center">
+                    <img src="images/wind-icon-01.png" alt="wind" class="icons">
                     <p class="percent">32%</p>
-                    <p>Since 2008, the United States has generated the most electricity from wind comapred to all other countries.  </p>
+                    <p>wind</p>
                 </div>
-                <div class="col-md-2 center">
-                    <img src="images/solar-icon-01.png" alt="wind">
+                <div class="col-xs-4 col-md-2 center">
+                    <img src="images/wind-icon-01.png" alt="wind" class="icons">
+                    <p class="percent">8%</p>
+                    <p>biomass wood </p>
+                </div>
+                <div class="col-xs-4 col-md-2 center">
+                    <img src="images/wind-icon-01.png" alt="wind" class="icons">
+                    <p class="percent">3%</p>
+                    <p>biomass waste </p>
+                </div>
+                <div class="col-xs-4 col-md-2 center">
+                    <img src="images/geothermal-icon-01.png" alt="wind" class="icons">
+                    <p class="percent">3%</p>
+                    <p>geothermal</p>
+                </div>
+                <div class="col-xs-4 col-md-2 center">
+                    <img src="images/solar-icon-01.png" alt="wind" class="icons">
+                    <p class="percent">2%</p>
+                    <p>solar</p>
                     
                 </div>
-                <div class="col-md-2 center">
-                    <img src="images/geothermal-icon-01.png" alt="wind">
-                    
-                </div>
-                <div class="col-md-2">
-                    wind
-                </div>
-                <div class="col-md-2">
-                    wind
-                </div>
-                <div class="col-md-2">
-                    wind
-                </div>
+                
+                
             </div>
         </div>
         <br>
@@ -212,6 +369,7 @@
 
 
 <div class="container">
+
 <h3>Average Retail Price of Electricity to Ultimate Customers per Sector in 2015 (cents per Kilowatthour)</h3>
 <table id="example" class="display" cellspacing="0" width="100%">
         <thead>
@@ -234,7 +392,10 @@
             </tr>
         </tfoot>
 </table>
-</div>  
+
+</div>
+
+<p><strong>Sources:</strong> U.S. Energy Information Administration</p>
    
 </body>
 </html>
