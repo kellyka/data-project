@@ -1,6 +1,12 @@
 <?xml version="1.0" encoding="utf-8"?>
 <sourcesSET>
-    <sources name = "Wind">    
+    <sources name = "Wind">
+    
+    <year>2001</year>
+        <wind>6737</wind>
+        <solar>543</solar>
+        <geothermal>13741</geothermal>
+        <wood></wood>    
     <description>Wind</description>
         <yearOne>6737</yearOne>
         <yearTwo>10354</yearTwo>
@@ -17,8 +23,7 @@
         <YearThirteen>167992</YearThirteen>
         <YearFourteen>181791</YearFourteen>
         
-        <years>6737, 10354, 11187</years>
-        
+        <years>6737, 10354,</years>
     </sources>    
     <sources name= "Solar">
     <description>Solar</description>

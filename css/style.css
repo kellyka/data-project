@@ -8,7 +8,25 @@ h1,h2,h3,h4,h5,h6{
 
 .top-bar{    
     border: 1px;
+    padding-top: 5px;
 }
+
+.button{
+    color: white;
+    background-color: black;
+    border-radius: 0px;
+    font-family: "Oswald", sans-serif;
+    font-size: 11pt;
+}
+
+.button:hover{
+    color: white;
+    background-color: #F06747;
+    border-radius: 0px;
+    font-family: "Oswald", sans-serif;
+    font-size: 11pt;
+}
+
 
 p{
     font-family: "Helvetica Neue", sans-serif
@@ -34,9 +52,23 @@ a:hover{
     font-family: "Helvetica Neue"
 }
 
+
 .UT-logo{
     width: 110%;
     padding-top: 8px
+}
+
+.top-bar{
+    border-bottom: 1px solid #EAE8E5;
+    border-left: 1px solid #EAE8E5;
+    border-right: 1px solid #EAE8E5;
+    padding-top: 7px;
+    
+}
+
+.smaller-text{
+    font-size: 12px;
+    padding-top: 3px;
 }
     
 .box{
@@ -106,7 +138,7 @@ a:hover{
 .big-number{
     font-family: "Oswald", sans-serif;
     font-size: 32pt;
-    font-weight: 300;
+    font-weight: 100;
     color:white;
     
 }
@@ -176,7 +208,7 @@ a:hover{
     padding-bottom: 2vw;
     padding-top: 1vw;
     background: #DFE8CF;
-    font-size: 13pt;
+    font-size: 12pt;
     
 }
 
@@ -185,6 +217,7 @@ a:hover{
     font-size: 32pt;
     font-weight: 600;
     text-align: center;
+    color: #CCCBCA
 }
 
 .center{
